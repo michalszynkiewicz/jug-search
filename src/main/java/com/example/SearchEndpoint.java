@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class SearchEndpoint {
 
     @Stream("queries")
-    private Emitter<String> queryEmitter;
+    Emitter<String> queryEmitter;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
