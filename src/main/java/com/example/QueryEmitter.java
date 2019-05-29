@@ -6,8 +6,6 @@ import io.smallrye.reactive.messaging.annotations.Stream;
 import javax.enterprise.context.ApplicationScoped;
 
 /**
- * mstodo: Header
- *
  * @author Michal Szynkiewicz, michal.l.szynkiewicz@gmail.com
  * <br>
  * Date: 28/05/2019
@@ -19,6 +17,6 @@ public class QueryEmitter {
    Emitter<String> queryEmitter;
 
    public void send(String message) {
-
+      queryEmitter.send(message);
    }
 }

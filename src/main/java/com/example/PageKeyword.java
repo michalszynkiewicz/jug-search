@@ -5,8 +5,6 @@ import io.quarkus.hibernate.orm.panache.PanacheEntity;
 import javax.persistence.Entity;
 
 /**
- * mstodo: Header
- *
  * @author Michal Szynkiewicz, michal.l.szynkiewicz@gmail.com
  * <br>
  * Date: 28/05/2019
